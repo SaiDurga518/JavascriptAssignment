@@ -1,0 +1,14 @@
+function check_number(x,y)
+{
+if((x>=50 && x<=100) || (y>=50 && y<=100))
+{
+return("true");
+}
+else{
+return("false");
+}
+}
+
+cosole.log(check_number(72,98));
+
+console.log(check_number(04,123));
